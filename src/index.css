@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img {
+  height: 25rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: Zen Antique;
+  color: black;
+  font-weight: 30;
+}
+
+body {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+input {
+  border-radius: 5px;
+ 
+}
+
+.card {
+  font-family: Zen Antique;
+  width: 20rem;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.characters {
+  display: inline-flex;
+  flex-flow: row wrap;
+  margin-left: 70px;
+}
+
+.title {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  height: 40px;
 }
